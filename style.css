@@ -212,3 +212,42 @@ font-size:18px;
 }
 
 }
+.donation-cards{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+margin-top:30px;
+}
+
+.donation-card{
+display:inline-block;
+padding:18px 32px;
+background:#1e88e5;
+color:#fff;
+text-decoration:none;
+border-radius:14px;
+font-size:22px;
+font-weight:bold;
+transition:.3s;
+box-shadow:0 0 20px rgba(30,136,229,.5);
+}
+
+.donation-card:hover{
+transform:translateY(-6px);
+box-shadow:0 0 30px rgba(30,136,229,.9);
+}
+
+.featured{
+background:linear-gradient(45deg,#FFD700,#FF9800);
+color:#000;
+box-shadow:0 0 25px gold;
+}
+
+.blessing{
+margin-top:30px;
+font-size:20px;
+font-weight:bold;
+color:#FFD54F;
+text-align:center;
+}
