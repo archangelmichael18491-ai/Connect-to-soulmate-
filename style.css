@@ -190,6 +190,7 @@ font-size:22px;
 
 .overlay h1{
 font-size:38px;
+text-shadow:0 0 25px rgba(255,215,0,.8);
 }
 
 .overlay p{
@@ -212,8 +213,14 @@ font-size:17px;
 .donate-btn{
 padding:15px 30px;
 font-size:18px;
+box-shadow:0 0 25px rgba(0,170,255,.7);
+transition: all .3s ease;
 }
-
+.donate-btn:hover{
+    transform:scale(1.08);
+    box-shadow:0 0 35px rgba(0,170,255,1);
+    transition:0.3s;
+}
 }
 .donation-cards{
 display:flex;
