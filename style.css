@@ -239,12 +239,12 @@ text-decoration:none;
 border-radius:14px;
 font-size:22px;
 font-weight:bold;
-transition:.3s;
+transition:all .3s ease;
 box-shadow:0 0 20px rgba(30,136,229,.5);
 }
 
 .donation-card:hover{
-transform:translateY(-6px);
+transform:translateY(-6px) scale(1.05);
 box-shadow:0 0 30px rgba(30,136,229,.9);
 }
 
